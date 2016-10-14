@@ -1,5 +1,5 @@
 markdown: redcarpet
-baseurl: ""
+baseurl: "slovohrista.github.io"
 paginate: 5
 paginate_path: "page:num"
 permalink: pretty
