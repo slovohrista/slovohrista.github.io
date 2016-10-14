@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+    <div class="l-main wrap-min container-fluid">
+        <section class="m-articles-wrapper ">
+
+          {% for post in site.categories.poetry %}
+
+            <article class="doctrine wow fadeInUp indexpage">
+                <div class="right-article-wr">
+                    <img src="/img/{{ post.category }}.png" alt="" class="article-logo">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <!-- <p>{{ post.excerpt }}</p> -->
+
+                    <div class="details">
+                        <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }}</div>
+                        <div class="comments"><i class="fa fa-comments-o" aria-hidden="true"></i><a href="{{post.url}}#disqus_thread"></a></div>
+                    </div>
+                </div>
+            </article>
+
+          {% endfor %}
+
+        </section>
+        <aside class="m-aside">
+            <div class="aside-single">
+                <div class="christ ">
+                    <img src="/img/book.png" alt="" class="article-logo">
+                    <!-- <h2 class="title">Христос и Антихрист <br><small> Владимир Бреурош</small></h2> -->
+                    <div class="book-cover-christ"></div>
+                    <div class="aside-single-footer">
+                        <a class="read-btn" href="https://slovohrista.gitbooks.io/christ-and-antichrist/content/">Читать онлайн</a>
+                        <div class="download-list">
+                            Скачать
+                            <a href="https://www.gitbook.com/download/pdf/book/slovohrista/christ-and-antichrist">PDF</a>,
+                            <a href="https://www.gitbook.com/download/mobi/book/slovohrista/christ-and-antichrist">Mobi</a>,
+                            <a href="https://www.gitbook.com/download/epub/book/slovohrista/christ-and-antichrist">Epub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>

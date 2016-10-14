@@ -1,0 +1,1 @@
+var $hamburger=$(".hamburger");$hamburger.on("click",function(){$hamburger.toggleClass("is-active"),$(".m-nav-wr").toggle(function(){},function(){})}),$("a.stone-icon").hover(function n(){$(this).find(".shadow").toggleClass("shadow-shrink")});
