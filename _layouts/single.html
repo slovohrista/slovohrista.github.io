@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Слово Христианина</title>
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/hamburgers.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+
+<body>
+    <header class="l-header">
+        <div class="wrap container-fluid">
+            <img src="/img/logo2.png" alt="Слово Христианина лого" class="header-sword-logo">
+            <h1 class="header-title ">
+              ”Открой очи мои, и увижу чудеса закона Твоего.” <br>
+              <p class="subtitle">(Пс. 118:18)</p>
+            </h1>
+        </div>
+    </header>
+    <nav class="navbar-colored">
+        <div class="wrap container-fluid">
+            <div class="flex nav-wr">
+                <div class="logo-wr">
+                    <a href="{{site.baseurl}}/"><img src="/img/logo.svg" alt="logo" class="logo "></a>
+                </div>
+                <div class="hamburger flex hamburger--squeeze middle-xs end-xs">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+                <div class="m-nav-wr">
+                    <ul class="m-nav-list no-list">
+                        <li><a href="{{site.baseurl}}/" class="nav-link {% if page.url == '/' %}current{% endif%}">Главная</a></li>
+                        <li><a href="{{site.baseurl}}/doctrine" class="nav-link {% if page.url == '/doctrine/' %}current{% endif%}">Учения</a></li>
+                        <li><a href="{{site.baseurl}}/poetry" class="nav-link {% if page.url == '/poetry/' %}current{% endif%}">Поезия</a></li>
+                        <li><a href="{{site.baseurl}}/books" class="nav-link {% if page.url == '/books/' %}current{% endif%}">Книги</a></li>
+                        <li><a href="{{site.baseurl}}/archive" class="nav-link {% if page.url == '/archive/' %}current{% endif%}">Архив</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <div class="l-main wrap-min container-fluid">
+      <section class="m-single-articles-wrapper">
+          <article class="doctrine">
+              <div class="right-article-wr">
+                  <div class="title">
+                      <h1>{{page.title}}</h1>
+                  </div>
+
+                  <div class="article-content">
+
+                      {{content}}
+
+                  </div>
+                  <div class="details">
+                      <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</div>
+                  </div>
+              </div>
+          </article>
+
+          <!-- comments -->
+          <div id="disqus_thread"></div>
+          <script>
+
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = '//slovohrista.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          var disqus_config = function () {
+            this.language = "ru";
+          };
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </section>
+    </div>
+
+
+    <footer class="">
+        <div class="l-footer wrap-min container-fluid">
+            <section class="m-footer-wrapper">
+                <div class="footer-nav ">
+                    <ul class="no-list map">
+                      <li><a href="{{site.baseurl}}/" class="nav-link {% if page.url == '/' %}current{% endif%}">Главная</a></li>
+                      <li><a href="{{site.baseurl}}/doctrine" class="nav-link {% if page.url == '/doctrine/' %}current{% endif%}">Учения</a></li>
+                      <li><a href="{{site.baseurl}}/poetry" class="nav-link {% if page.url == '/poetry/' %}current{% endif%}">Поезия</a></li>
+                      <li><a href="{{site.baseurl}}/books" class="nav-link {% if page.url == '/books/' %}current{% endif%}">Книги</a></li>
+                      <li><a href="{{site.baseurl}}/archive" class="nav-link {% if page.url == '/archive/' %}current{% endif%}">Архив</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <img src="/img/logo2.png" alt="Слово Христианина лого">
+                </div>
+                <div class="footer-contact">
+                  <a href="skype:solomon25042005?chat">solomon25042005<i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
+                  <a href="mailto:solomon50@ukr.net">solomon50@ukr.net<i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <script src="/js/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://use.fontawesome.com/dfeb7bd13b.js"></script>
+</body>
+
+</html>
