@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 layout: single
 title: Приходить час
 category: poetry
