@@ -1,1 +1,1 @@
-slovohrista.org
+*slovohrista.org
