@@ -19,3 +19,9 @@ $hamburger.on("click", function() {
     }, function() {
     });
 });
+
+$( document ).ready(function() {
+    $('.slide').css("visibility", "visible");
+    $('.slick-slide p a').css("visibility", "visible");
+    $('.author').css("visibility", "visible");
+});

@@ -37,6 +37,14 @@
                 width: 100%;
                 text-align: right;
             }
+
+            p a, .author {
+              visibility: hidden;
+            }
+        }
+
+        .slide {
+          visibility: hidden;
         }
 
         a {
