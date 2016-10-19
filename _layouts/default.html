@@ -2,6 +2,16 @@
 <html>
 
 <head>
+    <style>
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+      <link rel="stylesheet" href="{{ "/css/hamburgers.min.css " | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/css/slick.css " | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/css/slick-theme.css " | prepend: site.baseurl }}">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+      <link rel="icon" type="image/vnd.microsoft.icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
+    </style>
+
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -10,8 +20,6 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -100,12 +108,6 @@
             </section>
         </div>
     </footer>
-
-    <link rel="stylesheet" href="{{ "/css/hamburgers.min.css " | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/slick.css " | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/slick-theme.css " | prepend: site.baseurl }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="icon" type="image/vnd.microsoft.icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
     <script src="/js/jquery-3.1.0.min.js" charset="utf-8"></script>
     <script src="https://use.fontawesome.com/b7938a3337.js"></script>
     <script src="/js/slick.min.js" charset="utf-8"></script>
