@@ -1,1 +1,1 @@
-var $hamburger=$(".hamburger");$hamburger.on("click",function(){$hamburger.toggleClass("is-active"),$(".m-nav-wr").toggle(function(){},function(){})}),$("a.stone-icon").hover(function n(){$(this).find(".shadow").toggleClass("shadow-shrink")});
+var $hamburger=$(".hamburger"),slider=$(".slide").slick({autoplay:!0,autoplaySpeed:1e4,dots:!1,infinite:!0,speed:1200,fade:!0,slide:"div",nextArrow:".next-chevron",prevArrow:".prev-chevron",cssEase:"linear"});$hamburger.on("click",function(){$hamburger.toggleClass("is-active"),$(".m-nav-wr").toggle(function(){},function(){})});

@@ -1,0 +1,82 @@
+.l-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: 'Poiret One', cursive;
+    background-image: url('../images/header-bg-min.png');
+    background-position: 50% 65%;
+    background-size: cover;
+
+    .wrap {
+      margin-top: 50px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+
+      .left-header {
+        width: 61.7283950617284%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .right-header {
+        width: 38.2716049382716%;
+        display: flex;
+        align-items: center;
+        height: 330px;
+
+        .slick-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            top: 20px !important ;
+
+            .author {
+                width: 100%;
+                text-align: right;
+            }
+        }
+
+        a {
+            letter-spacing: .2px;
+            color: #fff;
+            &:hover {
+                text-decoration: none;
+                color: #ddd !important;
+            }
+        }
+
+        .fa {
+            color: #fff;
+            &:hover {
+                cursor: pointer;
+                color: #ccc;
+            }
+        }
+
+        p {
+            padding: 0 10px;
+            color: #fff;
+        }
+      }
+
+      .header-title {
+        width: 100%;
+        letter-spacing: 1px;
+        color: #fff;
+
+        .subtitle {
+          font-size: .8rem;
+          text-align: right;
+          color: #fff;
+        }
+      }
+
+      .header-sword-logo {
+        max-width: 190px;
+        margin: 30px 0;
+      }
+    }
+}

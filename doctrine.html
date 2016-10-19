@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="l-main wrap-min container-fluid">
+    <section class="m-archive-wrapper">
+        <div class="m-archive-inner-wr">
+            <article class="archive-article">
+                <div class="archive-content">
+
+                    <div class="archive-doc">
+                        <h2>Учения</h2>
+                        <ul>
+                            {% for post in site.categories.doctrine %}
+                            <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> <i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="{{ post.url }}">{{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <aside class="m-aside">
+        <div class="aside-single">
+            <div class="christ ">
+                <div class="book-cover-christ"></div>
+                <div class="aside-single-footer">
+                    <a class="read-btn" href="https://slovohrista.gitbooks.io/christ-and-antichrist/content/">Читать онлайн</a>
+                    <div class="download-list">
+                        Скачать
+                        <a href="https://www.gitbook.com/download/pdf/book/slovohrista/christ-and-antichrist">PDF</a>,
+                        <a href="https://www.gitbook.com/download/mobi/book/slovohrista/christ-and-antichrist">Mobi</a>,
+                        <a href="https://www.gitbook.com/download/epub/book/slovohrista/christ-and-antichrist">Epub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>

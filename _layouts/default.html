@@ -1,31 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Слово Христианина</title>
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/hamburgers.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+    <link rel="stylesheet" href="{{ "/css/hamburgers.min.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/slick.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/slick-theme.css " | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
 
 <body>
     <header class="l-header">
         <div class="wrap container-fluid">
-            <img src="/img/logo2.png" alt="Слово Христианина лого" class="header-sword-logo">
-            <h1 class="header-title ">
-              ”Открой очи мои, и увижу чудеса закона Твоего.” <br>
-              <p class="subtitle">(Пс. 118:18)</p>
-            </h1>
+            <div class="left-header">
+                <img src="/images/logo2.png" alt="Слово Христианина лого" class="header-sword-logo">
+                <h1 class="header-title ">
+                    ”Открой очи мои, и увижу чудеса закона Твоего.” <br>
+                    <p class="subtitle">(Пс. 118:18)</p>
+                    </h1>
+            </div>
+            <div class="right-header slide">
+              <i class="fa fa-chevron-left prev-chevron" type="button"></i>
+              <div class="q">
+                  <p>
+                      <a href="{{ "/poetry/2016/02/16/bezcіnnij-dar/" | prepend: site.baseurl }}">
+                        Дає із сяйва час і миті,<br>
+                        Випереджаючи удар<br>
+                        Меча, що із нечестя литий. <br>
+                        І то Його безцінний дар. <br>
+                      </a>
+                  </p>
+                  <p class="author">Владимир Бреурош</p>
+              </div>
+              <div class="q">
+                  <p>
+                      <a href="{{ "/poetry/2011/12/26/ya-xristiyanin/" | prepend: site.baseurl }}">
+                        Терни колючі порубати, <br>
+                        Від вчень релігій відмести <br>
+                        І шляхом вічним твердо йти, <br>
+                        Християнином, назавжди. <br>
+                      </a>
+                  </p>
+                  <p class="author">Владимир Бреурош</p>
+              </div>
+              <i class="fa fa-chevron-right next-chevron" type="button"></i>
+          </div>
         </div>
     </header>
     <nav class="navbar-colored">
         <div class="wrap container-fluid">
             <div class="flex nav-wr">
                 <div class="logo-wr">
-                    <a href="{{site.baseurl}}/"><img src="/img/logo.svg" alt="logo" class="logo "></a>
+                    <a href="{{site.baseurl}}/">СЛОВО ХРИСТИАНИНА</a>
                 </div>
                 <div class="hamburger flex hamburger--squeeze middle-xs end-xs">
                     <div class="hamburger-box">
@@ -38,30 +77,26 @@
                         <li><a href="{{site.baseurl}}/doctrine" class="nav-link {% if page.url == '/doctrine/' %}current{% endif%}">Учения</a></li>
                         <li><a href="{{site.baseurl}}/poetry" class="nav-link {% if page.url == '/poetry/' %}current{% endif%}">Поезия</a></li>
                         <li><a href="{{site.baseurl}}/books" class="nav-link {% if page.url == '/books/' %}current{% endif%}">Книги</a></li>
-                        <li><a href="{{site.baseurl}}/archive" class="nav-link {% if page.url == '/archive/' %}current{% endif%}">Архив</a></li>
                     </ul>
                 </div>
             </div>
     </nav>
 
-
-    {{content}}
-
+    {{ content }}
 
     <footer class="">
         <div class="l-footer wrap-min container-fluid">
             <section class="m-footer-wrapper">
                 <div class="footer-nav ">
                     <ul class="no-list map">
-                      <li><a href="{{site.baseurl}}/" class="nav-link {% if page.url == '/' %}current{% endif%}">Главная</a></li>
-                      <li><a href="{{site.baseurl}}/doctrine" class="nav-link {% if page.url == '/doctrine/' %}current{% endif%}">Учения</a></li>
-                      <li><a href="{{site.baseurl}}/poetry" class="nav-link {% if page.url == '/poetry/' %}current{% endif%}">Поезия</a></li>
-                      <li><a href="{{site.baseurl}}/books" class="nav-link {% if page.url == '/books/' %}current{% endif%}">Книги</a></li>
-                      <li><a href="{{site.baseurl}}/archive" class="nav-link {% if page.url == '/archive/' %}current{% endif%}">Архив</a></li>
+                        <li><a href="{{site.baseurl}}/" class="nav-link {% if page.url == '/' %}current{% endif%}">Главная</a></li>
+                        <li><a href="{{site.baseurl}}/doctrine" class="nav-link {% if page.url == '/doctrine/' %}current{% endif%}">Учения</a></li>
+                        <li><a href="{{site.baseurl}}/poetry" class="nav-link {% if page.url == '/poetry/' %}current{% endif%}">Поезия</a></li>
+                        <li><a href="{{site.baseurl}}/books" class="nav-link {% if page.url == '/books/' %}current{% endif%}">Книги</a></li>
                     </ul>
                 </div>
                 <div class="footer-logo">
-                    <img src="/img/logo2.png" alt="Слово Христианина лого">
+                    <img src="/images/logo2.png" alt="Слово Христианина лого">
                 </div>
                 <div class="footer-contact">
                     <a href="skype:solomon25042005?chat">solomon25042005<i class="fa fa-skype fa-2x" aria-hidden="true"></i></a>
@@ -71,13 +106,11 @@
         </div>
     </footer>
     <script src="/js/jquery-3.1.0.min.js" charset="utf-8"></script>
-    <!-- <script src="/js/wow.min.js"></script> -->
-    <script>
-        new WOW().init();
-    </script>
-    <script src="https://use.fontawesome.com/dfeb7bd13b.js"></script>
+    <script src="https://use.fontawesome.com/b7938a3337.js"></script>
+    <script src="/js/slick.min.js" charset="utf-8"></script>
     <script src="/js/app.js" charset="utf-8"></script>
     <script id="dsq-count-scr" src="//slovohrista.disqus.com/count.js" async></script>
+    {% include analytics.html %}
 </body>
 
 </html>

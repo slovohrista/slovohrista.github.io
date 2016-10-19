@@ -1,0 +1,13 @@
+.current,
+.nav-link:focus {
+    transition: color 300ms 0s ease;
+    color: #4CB648 !important;
+}
+
+a::hover {
+    color: #334854 !important;
+}
+
+.footer a::hover {
+    color: #4CB648 !important;
+}

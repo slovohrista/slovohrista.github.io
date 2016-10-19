@@ -1,0 +1,12 @@
+.l-main {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    padding-top: 20px;
+    // margin-bottom: 20px;
+
+    .pagination {
+      color: #083836;
+      margin-top: 20px;
+    }
+}
