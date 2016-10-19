@@ -1037,9 +1037,7 @@ a::hover {
   .m-single-articles-wrapper article {
     padding: 0 10px 20px !important; }
     .m-single-articles-wrapper article .right-article-wr {
-      width: 100%; }
-      .m-single-articles-wrapper article .right-article-wr h1 {
-        padding-left: 60px; }
+      width: 100% !important; }
       .m-single-articles-wrapper article .right-article-wr .article-content {
         padding: 0; }
 
