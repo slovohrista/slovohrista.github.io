@@ -613,7 +613,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2067,
+		"initialSize": 2997,
 		"inputAbbreviatedPath": "\/_site\/images\/doctrine-icon.png",
 		"outputAbbreviatedPath": "\/_site\/images\/doctrine-icon.png",
 		"outputPathIsOutsideProject": 0,
@@ -910,13 +910,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/doctrine-icon.jpg": {
-		"fileType": 16384,
+	"\/images\/doctrine-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2067,
-		"inputAbbreviatedPath": "\/images\/doctrine-icon.jpg",
-		"outputAbbreviatedPath": "\/images\/doctrine-icon.jpg",
+		"initialSize": 3177,
+		"inputAbbreviatedPath": "\/images\/doctrine-icon.png",
+		"outputAbbreviatedPath": "\/images\/doctrine-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
