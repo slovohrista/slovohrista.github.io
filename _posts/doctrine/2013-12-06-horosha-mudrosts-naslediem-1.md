@@ -1,6 +1,6 @@
 ---
 published: true
-title: Хороша мудрость с наследием. Часть 1
+title: Хороша мудрость с наследием 1
 category: doctrine
 layout: single
 ---
