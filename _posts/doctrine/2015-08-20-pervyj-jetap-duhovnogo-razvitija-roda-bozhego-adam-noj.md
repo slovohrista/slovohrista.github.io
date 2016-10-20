@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Первый этап духовного развития рода Божьего. Адам - Ной.
 category: doctrine
 layout: single
