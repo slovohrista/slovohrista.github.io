@@ -2,6 +2,7 @@
 published: true
 category: doctrine
 title: Водное крещение во имя Господа Иисуса Христа. Часть 1
+layout: single
 ---
 ### ВОДНОЕ КРЕЩЕНИЕ
 
