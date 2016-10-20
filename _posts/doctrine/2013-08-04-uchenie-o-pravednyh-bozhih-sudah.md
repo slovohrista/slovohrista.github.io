@@ -2,7 +2,7 @@
 published: true
 category: doctrine
 layout: single
-title: null
+title: Учение о праведных Божьих судах
 ---
 ### УЧЕНИЕ О ПРАВЕДНЫХ БОЖЬИХ СУДАХ
 
