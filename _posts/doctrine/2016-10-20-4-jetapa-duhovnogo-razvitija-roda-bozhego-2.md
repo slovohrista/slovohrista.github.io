@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: doctrine
 layout: single
 title: 4 этапа духовного развития рода божьего 2
