@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: doctrine
 layout: single
 title: Хороша мудрость с наследием. Часть 2
