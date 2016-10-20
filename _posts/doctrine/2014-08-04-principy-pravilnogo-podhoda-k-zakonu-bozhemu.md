@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Принципы правильного подхода к закону Божьему
 category: doctrine
 layout: single
