@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Первый этап развития рода Божьего. 120 лет на спасение.
 category: doctrine
 layout: single
