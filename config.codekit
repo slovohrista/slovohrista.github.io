@@ -329,27 +329,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_posts\/doctrine\/2015-12-28-pervyj-ehtap-razvitija-roda-bozhego-120-let-na-spasenie.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/doctrine\/2015-12-28-pervyj-ehtap-razvitija-roda-bozhego-120-let-na-spasenie.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/doctrine\/2015-12-28-pervyj-ehtap-razvitija-roda-bozhego-120-let-na-spasenie.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/_posts\/poetry\/2011-12-19-bozhe-mij.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -752,15 +731,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/2016\/01\/16\/ljublju-ja-den-ljublju-ja-nich\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2016\/01\/16\/ljublju-ja-den-ljublju-ja-nich\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -941,15 +911,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/doctrine\/2015\/12\/28\/pervyj-ehtap-razvitija-roda-bozhego-120-let-na-spasenie\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/doctrine\/2015\/12\/28\/pervyj-ehtap-razvitija-roda-bozhego-120-let-na-spasenie\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/doctrine\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1114,15 +1075,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/page3\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/page4\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/page4\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
