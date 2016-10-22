@@ -2,6 +2,7 @@
 layout: single
 title: Протистояння
 category: poetry
+author: Бреурош Володимир
 ---
 
 Коли я падав, то душа стогнала,  

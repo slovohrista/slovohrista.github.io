@@ -3,6 +3,7 @@ published: true
 title: Первый этап духовного развития рода Божьего. 120 лет на спасение.
 category: doctrine
 layout: single
+author: Бреурош Владимир
 ---
 4
 

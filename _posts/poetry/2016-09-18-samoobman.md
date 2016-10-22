@@ -3,6 +3,7 @@ published: true
 layout: single
 category: poetry
 title: Самообман
+author: Бреурош Владимир
 ---
 Пусть умолкнут тирады, разящие слух,  
 На возвышенных нотах поющие гимны,  

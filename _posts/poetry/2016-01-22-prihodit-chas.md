@@ -2,6 +2,7 @@
 layout: single
 title: Приходить час
 category: poetry
+author: Бреурош Володимир
 ---
 
 Приходить час випробувань весни моєї.  

@@ -3,6 +3,7 @@ layout: single
 title: Головне на світі
 category: poetry
 published: true
+author: Бреурош Володимир
 ---
 
 Шість тисяч літ недавно минуло непомітно:  

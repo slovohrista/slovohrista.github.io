@@ -2,6 +2,7 @@
 layout: single
 title: Безцінний дар
 category: poetry
+author: Бреурош Володимир
 ---
 
 У білосніжному натхненні,  

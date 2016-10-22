@@ -2,6 +2,7 @@
 layout: single
 title: Коли вітер гуляє
 category: poetry
+author: Бреурош Володимир
 ---
 
 Не буває прощення людині,  

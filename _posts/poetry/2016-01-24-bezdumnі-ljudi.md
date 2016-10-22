@@ -3,6 +3,7 @@ published: false
 layout: single
 category: poetry
 title: Бездумні люди
+author: Бреурош Володимир
 ---
 Бездумні люди, наче повмирали,  
 Мов клоччя рване сни їх та думки,  

@@ -2,6 +2,7 @@
 layout: single
 title: Я - християнин
 category: poetry
+author: Бреурош Владимир
 ---
 
 Я не баптист, не православний,  
