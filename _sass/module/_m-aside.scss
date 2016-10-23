@@ -85,7 +85,11 @@
 	}
 
 	.search {
-		height: auto !important;
+		min-height: auto !important;
     margin-top: 20px;
+
+		.gsc-input-box {
+			border-radius: 4px;
+		}
 	}
 }
