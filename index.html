@@ -31,15 +31,15 @@ layout: default
 
         <div class="pagination">
           {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+            <a href="{{ paginator.previous_page_path }}" class="previous">Пред</a>
           {% else %}
-            <span class="previous"><i class="fa fa-chevron-circle-left" aria-hidden="true"></span>
+            <span class="previous">Пред</span>
           {% endif %}
           <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
           {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+            <a href="{{ paginator.next_page_path }}" class="next">След</a>
           {% else %}
-            <span class="next "><i class="fa fa-chevron-circle-right" aria-hidden="true"></span>
+            <span class="next ">След</span>
           {% endif %}
         </div>
 
