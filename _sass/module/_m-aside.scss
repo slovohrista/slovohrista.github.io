@@ -90,6 +90,14 @@
 
 		.gsc-input-box {
 			border-radius: 4px;
+
+			form.gsc-search-box {
+				margin-bottom: 0 !important;
+
+				table.gsc-search-box {
+					margin-bottom: 0 !important;
+				}
+			}
 		}
 	}
 }
