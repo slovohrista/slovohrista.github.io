@@ -329,7 +329,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_posts\/poetry\/2011-12-19-bozhe-mij.md": {
+	"\/_posts\/poetry\/2008-11-23-bozhe-mij.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -338,9 +338,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/poetry\/2011-12-19-bozhe-mij.md",
+		"inputAbbreviatedPath": "\/_posts\/poetry\/2008-11-23-bozhe-mij.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/poetry\/2011-12-19-bozhe-mij.html",
+		"outputAbbreviatedPath": "\/_posts\/poetry\/2008-11-23-bozhe-mij.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -350,7 +350,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_posts\/poetry\/2011-12-26-protistoyannya.md": {
+	"\/_posts\/poetry\/2009-04-03-ya-xristiyanin.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -359,9 +359,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/poetry\/2011-12-26-protistoyannya.md",
+		"inputAbbreviatedPath": "\/_posts\/poetry\/2009-04-03-ya-xristiyanin.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/poetry\/2011-12-26-protistoyannya.html",
+		"outputAbbreviatedPath": "\/_posts\/poetry\/2009-04-03-ya-xristiyanin.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -371,7 +371,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_posts\/poetry\/2011-12-26-ya-xristiyanin.md": {
+	"\/_posts\/poetry\/2009-12-05-protistoyannya.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -380,9 +380,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/poetry\/2011-12-26-ya-xristiyanin.md",
+		"inputAbbreviatedPath": "\/_posts\/poetry\/2009-12-05-protistoyannya.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/poetry\/2011-12-26-ya-xristiyanin.html",
+		"outputAbbreviatedPath": "\/_posts\/poetry\/2009-12-05-protistoyannya.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -392,7 +392,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/_posts\/poetry\/2016-01-15-ne-pitaj.md": {
+	"\/_posts\/poetry\/2014-06-02-ne-pitaj.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -401,9 +401,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/poetry\/2016-01-15-ne-pitaj.md",
+		"inputAbbreviatedPath": "\/_posts\/poetry\/2014-06-02-ne-pitaj.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/poetry\/2016-01-15-ne-pitaj.html",
+		"outputAbbreviatedPath": "\/_posts\/poetry\/2014-06-02-ne-pitaj.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -1109,38 +1109,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/poetry\/2011\/12\/19\/bozhe-mij\/index.html": {
+	"\/_site\/poetry\/2008\/11\/23\/bozhe-mij\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/poetry\/2011\/12\/19\/bozhe-mij\/index.html",
+		"inputAbbreviatedPath": "\/_site\/poetry\/2008\/11\/23\/bozhe-mij\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/poetry\/2011\/12\/26\/protistoyannya\/index.html": {
+	"\/_site\/poetry\/2009\/04\/03\/ya-xristiyanin\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/poetry\/2011\/12\/26\/protistoyannya\/index.html",
+		"inputAbbreviatedPath": "\/_site\/poetry\/2009\/04\/03\/ya-xristiyanin\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/poetry\/2011\/12\/26\/ya-xristiyanin\/index.html": {
+	"\/_site\/poetry\/2009\/12\/05\/protistoyannya\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/poetry\/2011\/12\/26\/ya-xristiyanin\/index.html",
+		"inputAbbreviatedPath": "\/_site\/poetry\/2009\/12\/05\/protistoyannya\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/poetry\/2016\/01\/15\/ne-pitaj\/index.html": {
+	"\/_site\/poetry\/2014\/06\/02\/ne-pitaj\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/poetry\/2016\/01\/15\/ne-pitaj\/index.html",
+		"inputAbbreviatedPath": "\/_site\/poetry\/2014\/06\/02\/ne-pitaj\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1313,7 +1313,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3177,
+		"initialSize": 2997,
 		"inputAbbreviatedPath": "\/images\/doctrine-icon.png",
 		"outputAbbreviatedPath": "\/images\/doctrine-icon.png",
 		"outputPathIsOutsideProject": 0,
@@ -1469,7 +1469,7 @@
 		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
