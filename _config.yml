@@ -40,6 +40,14 @@ url: http://slovohrista.org
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" 
+    values:
+      layout: "single"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
