@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Коли вітер гуляє
 ---
 ## A New Post
