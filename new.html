@@ -18,8 +18,12 @@
         }
 
         body {
-          background-image: url("../images/header-bg-min.png");
-          background-size: cover;
+            background-image: url("../images/header-bg-min.png");
+            background-size: cover;
+        }
+
+        .content {
+            padding: 20px 0;
         }
     </style>
 </head>
@@ -27,58 +31,59 @@
 <body>
     <br>
     <div class="container-fluid">
-        <header></header>
-    </div>
-    <div class="container">
-        <div class="col-md-6">
-            <div class="form-group row">
-                <label for="example-text-input" class="col-xs-2 col-form-label">Назва</label>
-                <div class="col-xs-10">
-                    <input class="form-control title" type="text" value="" id="example-text-input title">
+
+        <div class="container content">
+            <div class="col-md-6">
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-xs-2 col-form-label">Назва</label>
+                    <div class="col-xs-10">
+                        <input class="form-control title" type="text" value="" id="example-text-input title">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group row">
-                <label for="example-text-input" class="col-xs-2 col-form-label">Автор</label>
-                <div class="col-xs-10">
-                    <input class="form-control author" type="text" value="Бреурош Володимир" id="example-text-input">
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-xs-2 col-form-label">Автор</label>
+                    <div class="col-xs-10">
+                        <input class="form-control author" type="text" value="Бреурош Володимир" id="example-text-input">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group row">
-                <label for="example-date-input" class="col-xs-2 col-form-label">Дата</label>
-                <div class="col-xs-10">
-                    <input class="form-control date" type="date" value="2016-11-08" id="example-date-input date">
+                <div class="form-group row">
+                    <label for="example-date-input" class="col-xs-2 col-form-label">Дата</label>
+                    <div class="col-xs-10">
+                        <input class="form-control date" type="date" value="2016-11-08" id="example-date-input date">
+                    </div>
                 </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-xs-10 offset-md-2">
-                    <label class="custom-control custom-radio">
+                <div class="form-group row">
+                    <div class="col-xs-10 offset-md-2">
+                        <label class="custom-control custom-radio">
                     <input id="doctrine" name="category" type="radio" class="custom-control-input">
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">Вчення</span>
                     </label>
-                    <label class="custom-control custom-radio">
+                        <label class="custom-control custom-radio">
                     <input id="poetry" name="category" type="radio" class="custom-control-input">
                     <span class="custom-control-indicator"></span>
                     <span class="custom-control-description">Поезія</span>
                     </label>
+                    </div>
                 </div>
+
+                <button type="button" class="btn btn-success pull-right gen"><i class="fa fa-plus-circle" aria-hidden="true"></i> Створити</button><br><br>
             </div>
 
-            <button type="button" class="btn btn-success pull-right gen"><i class="fa fa-plus-circle" aria-hidden="true"></i> Створити</button><br><br>
-        </div>
+            <div class="col-md-6 output">
+                <div class="form-group">
+                    <textarea class="form-control start-block" id="exampleTextarea start-block" rows="7"></textarea>
+                </div>
+                <!-- <button type="button" class="btn btn-primary"><i class="fa fa-clone" aria-hidden="true"></i> Копіювати</button><br><br> -->
+                <!-- <button type="button" class="btn btn-secondary ">Очистити</button><br><br> -->
 
-        <div class="col-md-6 output">
-            <div class="form-group">
-                <textarea class="form-control start-block" id="exampleTextarea start-block" rows="7"></textarea>
+                <div class="form-group">
+                    <textarea class="form-control file-block" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <!-- <button type="button" class="btn btn-primary"><i class="fa fa-clone" aria-hidden="true"></i> Копіювати</button><br><br> -->
+                <!-- <button type="button" class="btn btn-secondary ">Очистити</button> -->
             </div>
-            <!-- <button type="button" class="btn btn-primary"><i class="fa fa-clone" aria-hidden="true"></i> Копіювати</button><br><br> -->
-            <!-- <button type="button" class="btn btn-secondary ">Очистити</button><br><br> -->
-
-            <div class="form-group">
-                <textarea class="form-control file-block" id="exampleTextarea" rows="3"></textarea>
-            </div>
-            <!-- <button type="button" class="btn btn-primary"><i class="fa fa-clone" aria-hidden="true"></i> Копіювати</button><br><br> -->
-            <!-- <button type="button" class="btn btn-secondary ">Очистити</button> -->
+            
         </div>
     </div>
 
