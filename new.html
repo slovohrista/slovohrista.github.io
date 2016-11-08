@@ -13,8 +13,16 @@
             border-left: 1px solid #ccc;
         }
 
-        .gen {
-            float: right;
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .btn {
+            border-radius: 50px !important;
+            margin-bottom: 20px;
         }
 
         body {
@@ -31,10 +39,8 @@
 </head>
 
 <body>
-    <br>
     <div class="container-fluid">
-
-        <div class="container content">
+        <div class="container">
             <div class="col-md-6">
                 <div class="form-group row">
                     <label for="example-text-input" class="col-xs-2 col-form-label">Назва</label>
@@ -57,19 +63,18 @@
                 <div class="form-group row">
                     <div class="col-xs-10 offset-md-2">
                         <label class="custom-control custom-radio">
-                    <input id="doctrine" name="category" type="radio" class="custom-control-input">
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">Вчення</span>
-                    </label>
+                  <input id="doctrine" name="category" type="radio" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Вчення</span>
+                  </label>
                         <label class="custom-control custom-radio">
-                    <input id="poetry" name="category" type="radio" class="custom-control-input">
-                    <span class="custom-control-indicator"></span>
-                    <span class="custom-control-description">Поезія</span>
-                    </label>
+                  <input id="poetry" name="category" type="radio" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Поезія</span>
+                  </label>
                     </div>
                 </div>
 
-                <button type="button" class="btn btn-success pull-right gen"><i class="fa fa-plus-circle" aria-hidden="true"></i> Створити</button><br><br>
             </div>
 
             <div class="col-md-6 output">
@@ -86,7 +91,14 @@
                 <!-- <button type="button" class="btn btn-secondary ">Очистити</button> -->
             </div>
 
+
+
         </div>
+    </div>
+
+    <div class="buttons col-md-12">
+        <button type="button" class="btn btn-success gen"><i class="fa fa-plus-circle" aria-hidden="true"></i> Згенерувати</button>
+        <button type="button" class="btn btn-success  download"><i class="fa fa-download" aria-hidden="true"></i> Завантажити</button>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
