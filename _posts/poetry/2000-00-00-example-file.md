@@ -1,8 +1,9 @@
 ---
 layout: single
 category: poetry/doctrine
-title: 
+title: Назва публікації
 author: Владимир/Володимир Бреурош
+published: true
 ---
 ## A New Post
 
