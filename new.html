@@ -17,16 +17,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 20px 0 0 0;
+            padding: 20px 0;
         }
 
         .pull-right {
-          float: right;
-        }
-
-        .link {
-          margin-bottom: 20px;
-          display: block;
+            float: right;
         }
 
         .btn {
@@ -34,6 +29,11 @@
             margin-bottom: 20px;
         }
 
+        html {
+            height: 99px;
+            background-image: url();
+        }
+        
         body {
             background-image: url("../images/header-bg-min.png");
             background-size: cover;
@@ -52,7 +52,7 @@
     <div class="container-fluid">
         <div class="container content">
             <div class="col-md-6">
-                <a href="http://slovohrista.org/"><i class="fa fa-home" aria-hidden="true"></i> Slovohrista.org</a>
+                <a href="http://slovohrista.org/" class="link"><i class="fa fa-home" aria-hidden="true"></i> Slovohrista.org</a>
                 <div class="form-group row">
                     <label for="example-text-input" class="col-xs-2 col-form-label">Назва</label>
                     <div class="col-xs-10">
@@ -89,8 +89,8 @@
             </div>
 
             <div class="col-md-6 output">
-              <a href="https://github.com" class="link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</button></a>
-              <a href="http://prose.io/#slovohrista" class="pull-right "><i class="fa fa-pencil-square" aria-hidden="true"></i> Prose.io</button></a>
+                <a href="https://github.com" class="link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</button></a>
+                <a href="http://prose.io/#slovohrista" class="pull-right "><i class="fa fa-pencil-square" aria-hidden="true"></i> Prose.io</button></a>
                 <div class="form-group">
                     <textarea class="form-control start-block" id="exampleTextarea start-block" rows="7"></textarea>
                 </div>
