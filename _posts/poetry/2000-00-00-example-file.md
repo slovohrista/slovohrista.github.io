@@ -1,5 +1,8 @@
 ---
-published: false
+layout: single
+category: poetry/doctrine
+title: 
+author: Владимир/Володимир Бреурош
 ---
 ## A New Post
 
