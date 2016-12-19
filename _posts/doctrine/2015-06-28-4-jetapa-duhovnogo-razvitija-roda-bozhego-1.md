@@ -1,6 +1,6 @@
 ---
 published: true
-title: 4 этапа духовного развития рода божьего 1
+title: 4 этапа духовного развития рода Божьего 1
 category: doctrine
 layout: single
 author: Бреурош Владимир
